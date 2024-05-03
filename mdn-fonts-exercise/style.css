@@ -1,4 +1,20 @@
 /* General setup */
+@font-face {
+  font-family: "newyorkregular";
+  src: url("fonts/newyork\ serif/newyork_personal_use-webfont.woff2")
+      format("woff2"),
+    url("newyork_personal_use-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "robotomedium";
+  src: url("fonts/roboro/roboto-medium-webfont.woff2") format("woff2"),
+    url("roboto-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
 * {
   box-sizing: border-box;
@@ -49,3 +65,16 @@ footer {
 }
 
 /* WRITE YOUR CODE BELOW HERE */
+
+p {
+  font-family: "newyorkregular", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "robotomedium", sans-serif;
+}
