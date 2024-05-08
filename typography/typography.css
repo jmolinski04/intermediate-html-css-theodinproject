@@ -1,0 +1,26 @@
+@import "node_modules/modern-normalize/modern-normalize.css";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
+  max-inline-size: 66ch;
+  text-align: center;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1.5;
+  padding: 0.5rem;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}

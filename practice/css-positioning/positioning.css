@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five {
+  width: 200px;
+  height: 200px;
+}
+
+.one {
+  background-color: red;
+  position: absolute;
+  left: 400px;
+  right: 400px;
+  top: 400px;
+}
+
+.two {
+  background-color: green;
+  position: absolute;
+  left: calc(800px - 0.4rem);
+  bottom: 0.4rem;
+}
+
+.three {
+  background-color: blue;
+  position: absolute;
+  left: calc(800px - 0.4rem);
+}
+
+.four {
+  background-color: aqua;
+  position: relative;
+  top: calc(800px - 0.8rem);
+  padding: 0;
+  margin: 0;
+}
+
+.five {
+  background-color: deeppink;
+  position: absolute;
+}
+
+.wrapper {
+  width: 1000px;
+  height: 1000px;
+  display: flex;
+  gap: 1rem;
+  border: 0.4rem solid #000;
+}

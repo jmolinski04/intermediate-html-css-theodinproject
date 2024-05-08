@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+ul > li {
+  font-size: 3.6rem;
+  border-top: 1rem solid red;
+}
+
+ol > li {
+  font-size: 3.6rem;
+  border-top: 1rem solid green;
+}
+
+/* main article p {
+  font-size: 3.6rem;
+} */
+
+/* 
+.article-container article p {
+  font-size: 3.2rem;
+} */
+
+/* 
+main > div:first-of-type {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  border: 1px solid #fff;
+} */
+
+/* main > div:nth-child(1) {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  border: 1px solid #fff;
+}
+
+main > div:nth-child(2) {
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+  border: 1px solid #fff;
+}
+
+main > div:nth-child(3) {
+  width: 200px;
+  height: 200px;
+  background-color: antiquewhite;
+  border: 1px solid #fff;
+} */
+
+/* .group1 + div {
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+}
+
+.group1 + div + div {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+} */
+
+.group1 ~ div {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  border: 1rem solid #000;
+}

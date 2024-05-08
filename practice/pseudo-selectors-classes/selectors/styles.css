@@ -1,0 +1,50 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  border: 0.5rem solid black;
+}
+
+.box::after {
+  content: "";
+  display: block;
+
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 0.5rem solid black;
+}
+
+.link {
+  margin-top: 50px;
+}
+
+a {
+  font-size: 2rem;
+}
+
+a:hover {
+  color: red;
+}
+
+a:focus {
+  color: yellow;
+}
+
+a:active {
+  color: green;
+}
+
+.text {
+  max-inline-size: 50ch;
+}
+
+.text p:first-child::first-line {
+  color: red;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.text > p:nth-child(3) {
+  text-decoration: underline;
+}
