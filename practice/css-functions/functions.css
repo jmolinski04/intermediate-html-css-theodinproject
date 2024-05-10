@@ -1,0 +1,52 @@
+body {
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  background-color: lightgray;
+  flex-direction: column;
+}
+
+.box1,
+.box2,
+.box3 {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  border: 0.3rem solid black;
+}
+
+/* .box1 {
+  width: calc(40rem + 15px);
+}
+
+.box2 {
+  height: calc(10rem + 15em);
+}
+
+.box3 {
+  margin-left: calc(115px + 1rem);
+  width: min(250px);
+
+} */
+
+.box1 {
+  transition: transform 1600ms ease;
+}
+
+.box1:hover {
+  transform: rotate(360deg);
+  transition: 1600ms ease all;
+}
+
+.box2:hover {
+  background: linear-gradient(#d44848, #535fe4);
+}
+
+h1 {
+  font-size: clamp(3rem, 5vw, 10rem);
+}

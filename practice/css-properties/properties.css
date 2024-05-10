@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --fs-lg: 10rem;
+  --fs-md: 5rem;
+  --fs-sm: 2rem;
+  --color-prm: red;
+  --color-sec: green;
+  --color-fallback: blue;
+  --txt-dec: underline;
+  --main-bg: #344955;
+  --txt-clr: #fff;
+  --ff-body: Helvetica, sans-serif;
+  --ff-heading: "Courier New", monospace;
+  --max-chars: 70ch;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--main-bg);
+  font-family: var(--ff-body);
+}
+
+h1 {
+  font-size: var(--fs-lg);
+  color: var(--color-prm);
+  font-family: var(--ff-heading);
+}
+
+h2 {
+  font-size: var(--fs-md);
+  color: var(--color-sec);
+  font-family: var(--ff-heading);
+}
+
+h3 {
+  font-size: var(--fs-sm);
+  color: var(--color-fallback);
+  text-decoration: var(--txt-dec);
+  font-family: var(--ff-heading);
+}
+
+.text {
+  font-size: var(--fs-sm);
+  text-align: center;
+  text-decoration: var(--txt-dec, overline);
+  color: var(--txt-clr);
+  max-inline-size: var(--max-chars);
+}
