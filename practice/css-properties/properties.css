@@ -14,7 +14,7 @@
   --txt-clr: #fff;
   --ff-body: Helvetica, sans-serif;
   --ff-heading: "Courier New", monospace;
-  --max-chars: 70ch;
+  --max-chars: 50ch;
 }
 
 body {
