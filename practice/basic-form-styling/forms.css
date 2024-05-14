@@ -44,7 +44,9 @@ fieldset {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 20rem;
+  width: 25rem;
+  border: 0.2rem solid #000;
+  padding: 0.5rem 0;
 }
 
 input {
@@ -52,6 +54,11 @@ input {
   font-size: 1rem;
   border-radius: 0.5rem;
   border: 1px solid #000;
+}
+
+input,
+button {
+  width: 15rem;
 }
 
 input:focus {
