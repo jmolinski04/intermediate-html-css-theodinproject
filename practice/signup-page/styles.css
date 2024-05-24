@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
   box-sizing: border-box;
@@ -8,12 +8,15 @@
 
 :root {
   --clr-white: #fff;
+  --bg-clr: #F6F5F2
   --ff: "Roboto", sans-serif;
 }
 
 body {
   display: flex;
   font-family: var(--ff);
+  background-color: var(--bg-clr);
+
 }
 
 img {
@@ -59,13 +62,34 @@ img {
 
 .form-section {
   width: 100%;
+  height: 30%;
   background-color: aliceblue;
   padding: 10px;
   border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-row {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+form {
+  margin: 0 90px;
+  min-width: 640px;
 }
 
 fieldset {
   border: none;
+}
+
+label {
+  font-size: 20px;
+  display: block;
 }
 
 input {
@@ -74,4 +98,8 @@ input {
   border: 1px solid #000;
   outline: none;
   font-size: 18px;
+}
+
+h3 {
+  margin: 0 90px;
 }
